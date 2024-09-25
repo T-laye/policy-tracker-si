@@ -3,6 +3,8 @@
       {
         "src": "package.json",
         "use": "@vercel/node",
+        "buildCommand": "next build",
+        "framework": "nextjs",
         "config": {
           "installCommand": "npm install --legacy-peer-deps"
         }
