@@ -1,8 +1,8 @@
 import axios from 'axios';
-import { summarizeBill } from '../../../lib/nlp';
-import { analyzeSentiment } from '../../../lib/sentiment';
+import { detectBias } from '../../../lib/biasDetection';
 import { predictBillPassage } from '../../../lib/predict';
-import { detectBias } from '../../../lib/bias';
+import { summarizeBill } from '../../../lib/summarize';
+import { analyzeSentiment } from '../../../lib/sentiment';
 
 export default async function handler(req, res) {
   const { id } = req.query;
