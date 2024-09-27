@@ -14,7 +14,7 @@
         "compromise": "^13.11.1",
         "next": "^14.2.13",
         "react": "^18.3.1",
-        "react-chartjs-2": "^3.0.4",
+        "react-chartjs-2": "^4.3.1",
         "react-dom": "^18.3.1",
         "tailwindcss": "^2.2.16",
         "vader-sentiment": "^1.1.2"
